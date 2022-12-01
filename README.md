@@ -61,3 +61,9 @@ in [system.cpu.icache] [system.cpu.dcache] [system.l2]
 |specmcf_0|	1.225828|	0.007979|	0.000048	|0.340802|
 |specmcf_1|1.156079 |	0.002399|	0.000042	|0.614935|
 |specmcf_2|1.154443 |0.001877	|0.000018	 |0.789452|
+
+|Benchmarks	|CPI	|system.cpu.dcache.overall_miss_rate::total|	system.cpu.icache.overall_miss_rate::total	|system.l2.overall_miss_rate::total|
+|--|--|--|--|--|
+|specsjeng_0	|17.669434|	0.243970|	0.000023	|0.997409|
+|specsjeng_1	|10.284161|	0.122368	|0.000020|	0.991255|
+|specsjeng_2	|10.264661	|0.121831	|0.000019	|0.999986|
