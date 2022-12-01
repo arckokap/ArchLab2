@@ -15,8 +15,8 @@ in [system.cpu.icache] [system.cpu.dcache] [system.l2]
 
 |Benchmark |	sim_seconds	| CPI	| L1 icache missrate	| L1 dcache missrate	| L2 cache missrate |
 |--------- | ----------- | --- | ------------------ | ------------------ | ----------------- |
-|specbzip |0.083982|1.679650||||
-|spechmmer|
-|speclibm |
-|specmcf|
-|specsjeng|
+|specbzip | 0.083982|1.679650|0.000077| 0.014798| 0.282163 |
+|spechmmer|0.059396 |1.187917 |0.000221|0.001637|0.077760|
+|speclibm |0.174671|3.493415|0.000094|0.060972|0.999944|
+|speccmcf|0.064955 |1.299095|0.023612|0.002108|0.055046|
+|specsjeng|0.513528|10.270554|0.000020|0.121831|0.999972|
