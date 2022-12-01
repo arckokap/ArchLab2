@@ -37,3 +37,8 @@ in [system.cpu.icache] [system.cpu.dcache] [system.l2]
 
 
   
+|Benchmarks	|system.cpu.cpi	|system.cpu.dcache.overall_miss_rate::total|	system.cpu.icache.overall_miss_rate::total	|system.l2.overall_miss_rate::total|
+|----------|-------|--------|----|
+|specbzip_0	|2.021019	|0.024030|	0.000089|	0.399687|
+|specbzip_1	|1.652107	|0.014176|	0.000078|	0.265281|
+|specbzip_2	|1.616016 |0.010949|	0.000070|	0.351744|
