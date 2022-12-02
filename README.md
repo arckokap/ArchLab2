@@ -139,7 +139,7 @@ speclibm_3: 3,719.9355
 
 specmcf_0 : 1,576.4148  
 specmcf_1: 6,517.9734  
-specmcf_2:6,538.7651  
+specmcf_2: 6,538.7651  
 specmcf_3: 1,239.6036  
 
 specsjeng_0: 22,722.8921  
