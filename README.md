@@ -36,7 +36,13 @@ in [system.cpu.icache] [system.cpu.dcache] [system.l2]
 Παρατηρούμε πως ενώ αρχικά από 1GHz σε 2 GHz φαίνεται ο χρόνος(sim_seconds) να μειώνεται περίπου στο μισό, το οποίο θα μας προετοίμαζε για τέλειο scaling, αυτό δεν συμβαίνει καταρχάς για όλα τα benchmarks, καθώς και ενώ στα 3GHz υπάρχει βελτίωση(ιδιαίτερα φαίνεται στο spechmmer speccmcf) δεν υπάρχει κατά κύριο λόγω τέλειο scaling. 
 
 
+## Βήμα 2.
 
+
+
+In order to reduce miss rate: larger cache size ->reducing capacity misses, higher associativity->reduces conflict misses
+Increasing capacity of cache:also increases hit time
+Reducing miss rate via larger cache line size
 
 
 
