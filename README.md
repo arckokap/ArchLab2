@@ -122,7 +122,7 @@ spec**\_3: 1064
 specjeng_3: 3152
 
 Άρα f:  
-specbzip_0 : cost*\cpi => 1286\*2.021019 = 2,599.0304  
+specbzip_0 : cost\*cpi => 1286\*2.021019 = 2,599.0304  
 specbzip_1 : 9,314.57  
 specbzip_2 : 9,153.11  
 specbzip_3 : 1,883.36  
