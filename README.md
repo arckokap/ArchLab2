@@ -119,14 +119,22 @@ specbzip_3 : 1,883.36
 spechmmer_0: 1,584.8214  
 spechmmer_1: 6,724.0761  
 spechmmer_2: 6,714.9948  
-spechmmer_3:  
+spechmmer_3: 1,264.3501  
 
 speclibm_0: 7,226.0379  
 speclibm_1: 19,730.9421  
 speclibm_2: 19,764.9301  
-speclibm_3:  
+speclibm_3: 3,719.9355  
 
 specmcf_0 : 1,576.4148  
 specmcf_1: 6,517.9734  
 specmcf_2:6,538.7651  
-specmcf_3:   
+specmcf_3: 1,239.6036  
+
+specsjeng_0: 22,722.8921  
+specsjeng_1: 57,982.0997  
+specsjeng_2: 58,139.0399  
+specsjeng_3: 21,430.1170  
+
+
+
