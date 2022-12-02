@@ -94,35 +94,35 @@ Reducing miss rate via larger cache line size
 ### Συνάρτηση κόστους
 
 Γνωρίζοντας πως η L1 είναι ακριβότερη από την L2, πως αυξάνοντας το associativity αυξάνεται η πολυπλοκότητα(και άρα το κόστος), και καθώς όσο μεγαλύτερη η μνήμη,τόσο περισσότερο κοστίζει θεωρούμε:
-##### f = (l1d_cost+l1i_cost+l2_cost)*cpi
-όπου 
-L1*_cost = 8*kB + 2*associativity
-l2_cost = kB + 1*associativity
+##### f = (l1d_cost+l1i_cost+l2_cost)*cpi  
+όπου  
+L1*_cost = 8*kB + 2*associativity  
+l2_cost = kB + 1*associativity  
 
 π.χ
-spec*_0 : 8*(l1_size)+ 2*(associativity_l1d+associativity_l1i) + 1*l2_size + 1*associativity_l2  => 8*(64+32)+ 2*2*1 + 512 + 1*2 = 1286
-spec*_1: 5638
-spec*_2: 5664
-spec**_3: 1064
-specjeng_3:
+spec*_0 : 8*(l1_size)+ 2*(associativity_l1d+associativity_l1i) + 1*l2_size + 1*associativity_l2  => 8*(64+32)+ 2*2*1 + 512 + 1*2 = 1286  
+spec*_1: 5638  
+spec*_2: 5664  
+spec**_3: 1064  
+specjeng_3:  
 
-Άρα f:
-specbzip_0 : cost*cpi => 1286*2.021019 = 2,599.0304
-specbzip_1 : 9,314.57 
-specbzip_2 : 9,153.11
-specbzip_3 : 1,883.36
+Άρα f:  
+specbzip_0 : cost*cpi => 1286*2.021019 = 2,599.0304  
+specbzip_1 : 9,314.57  
+specbzip_2 : 9,153.11  
+specbzip_3 : 1,883.36  
 
-spechmmer_0: 1,584.8214
-spechmmer_1: 6,724.0761
-spechmmer_2: 6,714.9948
-spechmmer_3: 
+spechmmer_0: 1,584.8214  
+spechmmer_1: 6,724.0761  
+spechmmer_2: 6,714.9948  
+spechmmer_3:  
 
-speclibm_0: 7,226.0379
-speclibm_1: 19,730.9421
-speclibm_2: 19,764.9301
-speclibm_3:
+speclibm_0: 7,226.0379  
+speclibm_1: 19,730.9421  
+speclibm_2: 19,764.9301  
+speclibm_3:  
 
-specmcf_0 : 1,576.4148
-specmcf_1: 6,517.9734
-specmcf_2:6,538.7651
-specmcf_3: 
+specmcf_0 : 1,576.4148  
+specmcf_1: 6,517.9734  
+specmcf_2:6,538.7651  
+specmcf_3:   
