@@ -46,6 +46,14 @@ Reducing miss rate via larger cache line size
 
 
 
+|Benchmarks|L1 icache size|L1 icache associativity| L1 dcache size|L1 dcache associativity|L2 cache size|L2 cache associativity| cache line size|
+|--|--|--|--|--|--|--|--|
+|spec*_0|64kB|1|32kB|1|512kB|2|32|
+|spec*_1|64kB|1|128kB|1|4MB|2|64|
+|spec*_2|64kB|4|128kB|4|4MB|16|64|
+
+
+
   
 |Benchmarks	|CPI	|dcache.overall_miss_rate::total|icache.overall_miss_rate::total	|l2.overall_miss_rate::total|
 |---------- |----|------------------------------------------|--------------------------------------------|----------|
