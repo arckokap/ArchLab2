@@ -112,17 +112,17 @@ Reducing miss rate via larger cache line size
 ##### f = (l1d_cost+l1i_cost+l2_cost)*cpi  
 όπου  
 L1*\_cost = 8\*kB + 2\*associativity  
-l2_cost = kB + 1*associativity  
+l2_cost = kB + 1\*associativity  
 
 π.χ
-spec*\_0 : 8*(l1_size)+ 2*(associativity_l1d+associativity_l1i) + 1*l2_size + 1*associativity_l2  => 8*(64+32)+ 2*2*1 + 512 + 1*2 = 1286  
+spec*\_0 : 8*(l1_size)+ 2*(associativity_l1d+associativity_l1i) + 1\*l2_size + 1\*associativity_l2  => 8*(64+32)+ 2\*2\*1 + 512 + 1\*2 = 1286  
 spec*\_1: 5638  
-spec*_2: 5664  
-spec**_3: 1064  
+spec*\_2: 5664  
+spec**\_3: 1064  
 specjeng_3: 3152
 
 Άρα f:  
-specbzip_0 : cost*\cpi => 1286*2.021019 = 2,599.0304  
+specbzip_0 : cost*\cpi => 1286\*2.021019 = 2,599.0304  
 specbzip_1 : 9,314.57  
 specbzip_2 : 9,153.11  
 specbzip_3 : 1,883.36  
