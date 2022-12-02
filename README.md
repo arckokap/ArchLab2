@@ -111,18 +111,18 @@ Reducing miss rate via larger cache line size
 Γνωρίζοντας πως η L1 είναι ακριβότερη από την L2, πως αυξάνοντας το associativity αυξάνεται η πολυπλοκότητα(και άρα το κόστος), και καθώς όσο μεγαλύτερη η μνήμη,τόσο περισσότερο κοστίζει θεωρούμε:
 ##### f = (l1d_cost+l1i_cost+l2_cost)*cpi  
 όπου  
-L1*_cost = 8*kB + 2*associativity  
-l2_cost = kB + 1*associativity  
+L1*_cost = 8*\kB + 2*\associativity  
+l2_\cost = kB + 1*\associativity  
 
 π.χ
-spec*_0 : 8*(l1_size)+ 2*(associativity_l1d+associativity_l1i) + 1*l2_size + 1*associativity_l2  => 8*(64+32)+ 2*2*1 + 512 + 1*2 = 1286  
+spec*_0 : 8*\(l1_\size)+ 2*\(associativity_\l1d+associativity_l1i) + 1*l2_size + 1*associativity_l2  => 8*(64+32)+ 2*2*1 + 512 + 1*2 = 1286  
 spec*_1: 5638  
 spec*_2: 5664  
 spec**_3: 1064  
-specjeng_3:  
+specjeng_3: 3152
 
 Άρα f:  
-specbzip_0 : cost*cpi => 1286*2.021019 = 2,599.0304  
+specbzip_0 : cost*\cpi => 1286*2.021019 = 2,599.0304  
 specbzip_1 : 9,314.57  
 specbzip_2 : 9,153.11  
 specbzip_3 : 1,883.36  
@@ -146,6 +146,8 @@ specsjeng_0: 22,722.8921
 specsjeng_1: 57,982.0997  
 specsjeng_2: 58,139.0399  
 specsjeng_3: 21,430.1170  
+
+Συμπερασματικά η αρχιτεκτονική spec*\_3 φαίνεται να είναι η καλύτερη λύση για τα πρώτα 4 benchmarks, αφού η περαιτέρω αύξηση των μεγεθών των cache δεν βελτιώνει το cpi, ώστε να δικαιολογείται το κόστος. Για την περίπτωση του specjeng βλέπουμε πως αξίζει η αρχιτεκτονική specjeng_3 με τις μεγαλύτερες L1 caches και cache line size , αφού η βελτίωση του cpi δικαιολογεί το κόστος. 
 
 ###### To_do : make last section into bar_charts
 
