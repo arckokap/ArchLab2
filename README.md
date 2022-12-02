@@ -35,14 +35,17 @@ in [system.cpu.icache] [system.cpu.dcache] [system.l2]
 
 Παρατηρούμε πως ενώ αρχικά από 1GHz σε 2 GHz φαίνεται ο χρόνος(sim_seconds) να μειώνεται περίπου στο μισό, το οποίο θα μας προετοίμαζε για τέλειο scaling, αυτό δεν συμβαίνει καταρχάς για όλα τα benchmarks, καθώς και ενώ στα 3GHz υπάρχει βελτίωση(ιδιαίτερα φαίνεται στο spechmmer speccmcf) δεν υπάρχει κατά κύριο λόγω τέλειο scaling. 
 
+### 4.
+Βελτιώνοντας το clock της μνήμης για το benchmark specmcf παρατηρούμε πως τα sim_seconds :  0.064892 ενώ πριν  0.064955. Υπάρχει μια μικρή βελτίωση, αλλά καθώς οι caches είναι ίδιες ουσιαστικά βελτιώνονται οι περιπτώσεις στις οποίες έχουμε miss. Και όσο λιγότερα τα misses στα caches τόσο λιγότερη σημασία έχει η dram.
+
 
 ## Βήμα 2.
 
+Hit time + Miss rate × Miss penalty
 
-
-In order to reduce miss rate: larger cache size ->reducing capacity misses, higher associativity->reduces conflict misses
-Increasing capacity of cache:also increases hit time
-Reducing miss rate via larger cache line size
+In order to reduce miss rate: larger cache size ->reducing capacity misses, higher associativity->reduces conflict misses  
+Increasing capacity of cache:also increases hit time  
+Reducing miss rate via larger cache line size  
 
 
 
