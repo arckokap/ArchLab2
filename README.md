@@ -27,7 +27,7 @@ in [system.cpu.icache] [system.cpu.dcache] [system.l2]
 
 Παρατηρούμε πως αλλάζει το system.cpu_clk_domain.clock σε 333 στα 3Ghz, ενώ το system.clk_domain.clock παραμένει στα 1000. Αυτό είναι λογικό αφού μεταβάλλαμε την συχνότητα cpu και όχι τον συγχρονισμό του συστήματος.Οι παραπάνω πυρήνες θα έτρεχαν σε system.cpu_clk_domain.clock.
 
-|Benchmarks | 1GHz | 2GHz | 3GHz |
+|Benchmarks | sim_sec_1GHz | sim_sec_2GHz | sim_sec_3GHz |
 |---------- | ---- | ---- | ---- |
 |specbzip| 0.161025 | 0.083982|0.058385|
 |spechmmer|0.118530 | 0.059396| 0.039646|
