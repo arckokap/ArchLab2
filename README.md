@@ -60,19 +60,19 @@ Reducing miss rate via larger cache line size
 |spechmmer_2|	1.185557|	0.000669|	0.000083|	0.207342|
 
 
-|Benchmarks	|CPI	|system.cpu.dcache.overall_miss_rate::total|	system.cpu.icache.overall_miss_rate::total	|system.l2.overall_miss_rate::total|
+|Benchmarks	|CPI	|dcache.overall_miss_rate::total|icache.overall_miss_rate::total	|l2.overall_miss_rate::total|
 |--|--|--|--|--|
 |speclibm_0 |5.619003|	0.122417|	0.000090|	0.994137|
 |speclibm_1	|3.499635|0.061266	|0.000097|	0.993145|
 |speclibm_2	|3.489571|0.060972	|0.000085|	0.999979|
 
-|Benchmarks	|CPI	|system.cpu.dcache.overall_miss_rate::total|	system.cpu.icache.overall_miss_rate::total	|system.l2.overall_miss_rate::total|
+|Benchmarks	|CPI	|dcache.overall_miss_rate::total|icache.overall_miss_rate::total	|l2.overall_miss_rate::total|
 |--|--|--|--|--|
 |specmcf_0|	1.225828|	0.007979|	0.000048	|0.340802|
 |specmcf_1|1.156079 |	0.002399|	0.000042	|0.614935|
 |specmcf_2|1.154443 |0.001877	|0.000018	 |0.789452|
 
-|Benchmarks	|CPI	|system.cpu.dcache.overall_miss_rate::total|	system.cpu.icache.overall_miss_rate::total	|system.l2.overall_miss_rate::total|
+|Benchmarks	|CPI	|dcache.overall_miss_rate::total|icache.overall_miss_rate::total	|l2.overall_miss_rate::total|
 |--|--|--|--|--|
 |specsjeng_0	|17.669434|	0.243970|	0.000023	|0.997409|
 |specsjeng_1	|10.284161|	0.122368	|0.000020|	0.991255|
