@@ -112,7 +112,7 @@ Reducing miss rate via larger cache line size
 ##### f = (l1d_cost+l1i_cost+l2_cost)*cpi  
 όπου  
 L1*\_cost = 8*\kB + 2*\associativity  
-l2_\cost = kB + 1*\associativity  
+l2_cost = kB + 1*\associativity  
 
 π.χ
 spec*\_0 : 8*(l1_size)+ 2*(associativity_l1d+associativity_l1i) + 1*\l2_size + 1*\associativity_l2  => 8*(64+32)+ 2*2*1 + 512 + 1*2 = 1286  
@@ -149,5 +149,5 @@ specsjeng_3: 21,430.1170
 
 Συμπερασματικά η αρχιτεκτονική spec*\_3 φαίνεται να είναι η καλύτερη λύση για τα πρώτα 4 benchmarks, αφού η περαιτέρω αύξηση των μεγεθών των cache δεν βελτιώνει το cpi, ώστε να δικαιολογείται το κόστος. Για την περίπτωση του specjeng βλέπουμε πως αξίζει η αρχιτεκτονική specjeng_3 με τις μεγαλύτερες L1 caches και cache line size , αφού η βελτίωση του cpi δικαιολογεί το κόστος. 
 
-###### To_do : make last section into bar_charts
+###### To_do : make last section into bar_charts, fix italics
 
