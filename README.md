@@ -36,6 +36,10 @@ in [system.cpu.icache] [system.cpu.dcache] [system.l2]
 Παρατηρούμε πως ενώ αρχικά από 1GHz σε 2 GHz φαίνεται ο χρόνος(sim_seconds) να μειώνεται περίπου στο μισό, το οποίο θα μας προετοίμαζε για τέλειο scaling, αυτό δεν συμβαίνει καταρχάς για όλα τα benchmarks, καθώς και ενώ στα 3GHz υπάρχει βελτίωση(ιδιαίτερα φαίνεται στο spechmmer speccmcf) δεν υπάρχει κατά κύριο λόγω τέλειο scaling. 
 
 
+
+
+
+
   
 |Benchmarks	|CPI	|system.cpu.dcache.overall_miss_rate::total|	system.cpu.icache.overall_miss_rate::total	|system.l2.overall_miss_rate::total|
 |---------- |----|------------------------------------------|--------------------------------------------|----------|
