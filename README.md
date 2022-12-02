@@ -111,7 +111,7 @@ Reducing miss rate via larger cache line size
 Γνωρίζοντας πως η L1 είναι ακριβότερη από την L2, πως αυξάνοντας το associativity αυξάνεται η πολυπλοκότητα(και άρα το κόστος), και καθώς όσο μεγαλύτερη η μνήμη,τόσο περισσότερο κοστίζει θεωρούμε:
 ##### f = (l1d_cost+l1i_cost+l2_cost)*cpi  
 όπου  
-L1*\_cost = 8*kB + 2*associativity  
+L1*\_cost = 8\*kB + 2\*associativity  
 l2_cost = kB + 1*associativity  
 
 π.χ
