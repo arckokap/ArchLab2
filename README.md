@@ -150,5 +150,4 @@ specsjeng_3: 21,430.1170
 Συμπερασματικά η αρχιτεκτονική spec*\_3 φαίνεται να είναι η καλύτερη λύση για τα πρώτα 4 benchmarks, αφού η περαιτέρω αύξηση των μεγεθών των cache δεν βελτιώνει το cpi, ώστε να δικαιολογείται το κόστος. Για την περίπτωση του specjeng βλέπουμε πως αξίζει η αρχιτεκτονική specjeng_3 με τις μεγαλύτερες L1 caches και cache line size , αφού η βελτίωση του cpi δικαιολογεί το κόστος. 
 
 ###### To_do : make last section into bar_charts, fix italics
-Click [this](www.google.com)
 
