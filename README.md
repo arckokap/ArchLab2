@@ -23,6 +23,7 @@ in [system.cpu.icache] [system.cpu.dcache] [system.l2]
 
 ![image](https://user-images.githubusercontent.com/118390492/205500999-9d738432-b467-4a4b-987b-a9389074d4f3.png)  
 ![image](https://user-images.githubusercontent.com/118390492/205501259-629cc8fa-09a0-4e2a-9884-ce5106385564.png)  
+![image](https://user-images.githubusercontent.com/118390492/205501570-4375013a-4811-4969-8bc8-dda556378ec9.png)
 
 
 
