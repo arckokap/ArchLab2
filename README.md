@@ -81,12 +81,18 @@ Reducing miss rate via larger cache line size
 |specbzip_2	|1.616016 |0.010949|	0.000070|	0.351744|
 |specbzip_3 |1.770076 |0.015944| 0.000070| 0.359072|
 
+
+![image](https://user-images.githubusercontent.com/70851911/215798117-540269f9-4b8f-41fa-9bd1-bbf4974c698f.png)
+
+
 |Benchmarks	|CPI	|dcache.overall_miss_rate::total|	icache.overall_miss_rate::total	|l2.overall_miss_rate::total|
 |--|--|--|--|--|
 |spechmmer_0|	1.232365|	0.006489|	0.000421|	0.037090|
 |spechmmer_1|	1.192635|	0.001465|	0.000402|	0.081824|
 |spechmmer_2|	1.185557|	0.000669|	0.000083|	0.207342|
 |spechmmer_3| 1.188299| 0.002034| 0.000090| 0.064058|
+
+![image](https://user-images.githubusercontent.com/70851911/215798451-c0814831-5b60-4a02-9971-e9166bce68be.png)
 
 
 |Benchmarks	|CPI	|dcache.overall_miss_rate::total|icache.overall_miss_rate::total	|l2.overall_miss_rate::total|
@@ -96,6 +102,9 @@ Reducing miss rate via larger cache line size
 |speclibm_2	|3.489571|0.060972	|0.000085|	0.999979|
 |speclibm_3 |3.496180|0.060972|0.000085| 0.999979|
 
+![image](https://user-images.githubusercontent.com/70851911/215798892-23ae8b57-f01c-4631-86db-5ff584272929.png)
+
+
 |Benchmarks	|CPI	|dcache.overall_miss_rate::total|icache.overall_miss_rate::total	|l2.overall_miss_rate::total|
 |--|--|--|--|--|
 |specmcf_0|	1.225828|	0.007979|	0.000048	|0.340802|
@@ -103,12 +112,17 @@ Reducing miss rate via larger cache line size
 |specmcf_2|1.154443 |0.001877	|0.000018	 |0.789452|
 |specmcf_3|1.165041 |0.002345 |0.000018 |0.768573|
 
+![image](https://user-images.githubusercontent.com/70851911/215799201-af026962-5975-4b3d-9dd5-c9712c151749.png)
+
+
 |Benchmarks	|CPI	|dcache.overall_miss_rate::total|icache.overall_miss_rate::total	|l2.overall_miss_rate::total|
 |--|--|--|--|--|
 |specsjeng_0	|17.669434|	0.243970|	0.000023	|0.997409|
 |specsjeng_1	|10.284161|	0.122368	|0.000020|	0.991255|
 |specsjeng_2	|10.264661	|0.121831	|0.000019	|0.999986|
 |specsjeng_3 |6.798895| 0.060918|0.000013| 0.999978|
+
+![image](https://user-images.githubusercontent.com/70851911/215799436-e6e70b51-7682-4aa4-9e65-05e7801866fb.png)
 
 
 ## Βήμα 3ο:
