@@ -147,27 +147,42 @@ specbzip_1 : 9,314.57
 specbzip_2 : 9,153.11  
 specbzip_3 : 1,883.36  
 
+ ![image](https://user-images.githubusercontent.com/70851911/215800642-5aa7e124-0452-4df6-a05e-c7926a3cdcaf.png)
+
+
 spechmmer_0: 1,584.8214  
 spechmmer_1: 6,724.0761  
 spechmmer_2: 6,714.9948  
 spechmmer_3: 1,264.3501  
+
+![image](https://user-images.githubusercontent.com/70851911/215800915-1ff3b9ca-a773-4745-8f65-5384b1092f98.png)
+
 
 speclibm_0: 7,226.0379  
 speclibm_1: 19,730.9421  
 speclibm_2: 19,764.9301  
 speclibm_3: 3,719.9355  
 
+![image](https://user-images.githubusercontent.com/70851911/215801117-104d3d4d-c354-4b13-add7-8c45ab7dc319.png)
+
+
 specmcf_0 : 1,576.4148  
 specmcf_1: 6,517.9734  
 specmcf_2: 6,538.7651  
 specmcf_3: 1,239.6036  
+
+![image](https://user-images.githubusercontent.com/70851911/215801363-cb5cea48-55d6-4f8f-9d3d-d833e9a1a1c9.png)
+
 
 specsjeng_0: 22,722.8921  
 specsjeng_1: 57,982.0997  
 specsjeng_2: 58,139.0399  
 specsjeng_3: 21,430.1170  
 
+![image](https://user-images.githubusercontent.com/70851911/215801526-19b462da-87ae-4633-9278-3077c6babb9e.png)
+
+
 Συμπερασματικά η αρχιτεκτονική spec*\_3 φαίνεται να είναι η καλύτερη λύση για τα πρώτα 4 benchmarks, αφού η περαιτέρω αύξηση των μεγεθών των cache δεν βελτιώνει το cpi, ώστε να δικαιολογείται το κόστος. Για την περίπτωση του specjeng βλέπουμε πως αξίζει η αρχιτεκτονική specjeng_3 με τις μεγαλύτερες L1 caches και cache line size , αφού η βελτίωση του cpi δικαιολογεί το κόστος. 
 
-###### To_do : make last section into bar_charts, fix italics
+
 
